@@ -444,7 +444,7 @@ This class makes the topnav look good on small screens (display the links vertic
 
 /* Inline SVG for INSPIRE dots */
 .inspire-dots-svg {
-    height: 18px;
+    height: 15px;
     width: auto;
     fill: var(--my_cyan3); /* Bright cyan to stand out against dark cyan header */
 }
@@ -453,7 +453,7 @@ This class makes the topnav look good on small screens (display the links vertic
 .inspire-text-light {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     letter-spacing: 0.5px;
     color: #ffffff;
 }
@@ -461,7 +461,7 @@ This class makes the topnav look good on small screens (display the links vertic
 .inspire-text-bold {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     letter-spacing: 0.5px;
     color: #ffffff;
 }
