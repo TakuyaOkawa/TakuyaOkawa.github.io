@@ -245,8 +245,8 @@ h1, h2, h3 {
 
 section {
     background-color: rgba(243, 246, 244, 0.9); /* White overlay with 50% opacity */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 1.5%;
@@ -267,24 +267,26 @@ section {
     margin-bottom: 0;
 }
 
-/* Align research card icon and title on the same line */
+/* Flex container to perfectly align icon and heading */
+.research-card-header {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
 .research-card-icon {
-    display: inline-block;
-    vertical-align: top;
+    flex-shrink: 0;
     width: 30px;
     text-align: center;
-    margin-right: 8px;
     font-size: 1.2rem;
     color: #ca6b00;
-    margin-top: 2px; /* slight nudge to align with heading text */
 }
 
 .research-card h3 {
-    display: inline-block;
-    vertical-align: top;
-    width: calc(100% - 45px); /* Subtract icon width + margins to fit on same line */
-    font-size: 17px;
     margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
 }
 
 
@@ -391,7 +393,7 @@ This class makes the topnav look good on small screens (display the links vertic
 /* Name/Brand on the left */
 .nav-name {
     font-family: Arial, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     font-weight: 600;
     color: #ffffff;
     text-decoration: none;
