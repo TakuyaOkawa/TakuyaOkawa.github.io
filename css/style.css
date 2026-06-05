@@ -405,7 +405,7 @@ This class makes the topnav look good on small screens (display the links vertic
 .nav-icons {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
 }
 
 /* Individual circular icon button — white icons */
@@ -413,12 +413,12 @@ This class makes the topnav look good on small screens (display the links vertic
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1.5px solid rgba(255, 255, 255, 0.45);
     color: #ffffff;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     text-decoration: none;
     transition: background-color 0.2s ease, border-color 0.2s ease;
 }
@@ -437,8 +437,8 @@ This class makes the topnav look good on small screens (display the links vertic
 /* Override for oval nav buttons (like INSPIRE) */
 .nav-link-oval {
     width: auto;
-    padding: 0 14px;
-    border-radius: 18px; /* Half of the 36px height to maintain circular ends */
+    padding: 0 10px;
+    border-radius: 15px; /* Half of the 30px height to maintain circular ends */
     gap: 4px; /* Space between text and dots */
 }
 
