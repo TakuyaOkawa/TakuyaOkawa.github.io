@@ -270,18 +270,21 @@ section {
 /* Align research card icon and title on the same line */
 .research-card-icon {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     width: 30px;
     text-align: center;
     margin-right: 8px;
     font-size: 1.2rem;
     color: #ca6b00;
+    margin-top: 2px; /* slight nudge to align with heading text */
 }
 
 .research-card h3 {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+    width: calc(100% - 45px); /* Subtract icon width + margins to fit on same line */
     font-size: 17px;
+    margin-top: 0;
 }
 
 
