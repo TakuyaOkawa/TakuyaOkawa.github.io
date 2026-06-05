@@ -491,6 +491,7 @@ This class makes the topnav look good on small screens (display the links vertic
 
 .section-title {
     margin-bottom: 0.2em;
+    padding-left: 2%;
 }
 
 /* Right column: photo + name, centred */
@@ -547,6 +548,7 @@ This class makes the topnav look good on small screens (display the links vertic
     .intro-container {
         flex-direction: column-reverse; /* photo on top, about below */
         align-items: center;
+        gap: 20px; /* Reduced gap between stacked columns */
     }
     .intro-about {
         width: 100%;
