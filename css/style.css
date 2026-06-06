@@ -219,15 +219,18 @@ footer {
     }
 
 /* Anchor styling */
-a:link, a:visited {
+a {
+    color: #A4334E;
     text-decoration: none;
     font-weight: normal;
 }
 
-a:active {
+a:hover {
     text-decoration: underline;
-    color: green;
+}
 
+a:active {
+    color: #82283e;
 }
 
 
